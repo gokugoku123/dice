@@ -1,0 +1,90 @@
+/* ****************selector tags ************************* */
+body {
+  background-image: url("images/abstract-image-1.jpg");
+  text-align: center;
+}
+
+/* ****************class tags ************************* */
+/* heading tag */
+.jumbotron {
+  background-color: transparent !important;
+}
+
+/* navigation tag */
+/* sharing class */
+.sharing {
+  width: 50%;
+  margin: 1.2rem auto;
+}
+
+.sharing a>i {
+  margin: auto 4px;
+}
+
+.facebook {
+  color: blue;
+}
+
+.instagram {
+  color: #f73466;
+}
+
+.twitter {
+  color: #00acee
+}
+
+.whatsapp {
+  color: #25d366;
+}
+
+.Copyright {
+  color: gray;
+}
+
+/* *******************ID tags ***************************** */
+/* heading tag */
+#heading {
+  text-align: center;
+  font-family: 'Fugaz One', cursive;
+}
+
+#heading div h1 {
+  color: #da4302;
+  margin-bottom: 2rem;
+}
+
+#heading div h1 :hover {
+  height: 2rem;
+  transition: height 2s;
+}
+
+#heading div p {
+  color: #6807f9;
+  font-size: 2rem;
+  padding: 1.2rem 0.5rem;
+}
+
+/* title section */
+#title {
+  text-align: center;
+  font-family: 'Fugaz One', cursive;
+}
+
+/* navigation tag */
+#navigation {
+  margin: 2rem auto 6rem;
+  padding: 2rem 1.8rem;
+  text-align: center;
+  width: 50%;
+}
+
+#navigation .row div {
+  margin: 2.1rem auto;
+}
+
+/* footer tag */
+#footer {
+  margin-top: 12rem;
+  padding: 2rem;
+  text-align: center;
+}

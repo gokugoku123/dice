@@ -1,0 +1,43 @@
+/* selector tags */
+body {
+  background-image: url("../images/water-bottle.jpg");
+}
+
+.jumbotron {
+  background-color: transparent !important;
+}
+
+.navigation-buttons {
+  padding: 4rem 4rem;
+  margin: 2rem auto;
+}
+
+#description p {
+  color: #fbdff0;
+  font-family: 'Fugaz One', cursive;
+  font-size: 1.5rem;
+  opacity: 0.5;
+  padding: 40px;
+  text-align: center;
+  width: 60%
+}
+
+#description :hover {
+  opacity: 1;
+  color: #5eb7b7;
+  transition: color 1s;
+}
+
+#heading {
+  color: #91bd3a;
+  font-family: 'Fugaz One', cursive;
+  font-weight: bolder;
+  padding: inherit 20px;
+  text-align: center;
+}
+
+#navigation {
+  margin-left: 5rem;
+  text-align: left;
+  width: 37%
+}
